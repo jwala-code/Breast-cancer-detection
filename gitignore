@@ -1,0 +1,39 @@
+# Byte-compiled / cached Python files
+__pycache__/
+*.py[cod]
+*.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pickled results (regenerable)
+*.pkl
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data — keep CSVs, ignore archives
+data/*.zip
+data/*.tar.gz
